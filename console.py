@@ -17,8 +17,8 @@ album_repository.save(album_2)
 # result = album_repository.select(5)
 
 
-artist_1 = Artist("Taylor", 27)
-artist_repository.save(artist_1)
+# artist_1 = Artist("Taylor", 27)
+# artist_repository.save(artist_1)
 
 
 # results = artist_repository.select_all()
@@ -27,4 +27,9 @@ artist_repository.save(artist_1)
 # results = artist_repository.select(2)
 # pdb.set_trace()
 
-artist_repository.delete_all()
+# artist_repository.delete_all()
+
+new_artist = Artist("Brian", 55)
+artist_repository.update(new_artist)
+
+# results = artist_repository.delete(5)
